@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="fr.univ_lille.iut.MyResourceTest" time="0.036" errors="0" skipped="0">
+<testsuite tests="12" failures="0" name="fr.univ_lille.iut.UserResourceTest" time="1.942" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/jdk-8-oracle-x64/jre/lib/amd64"/>
@@ -58,5 +58,16 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="fr.univ_lille.iut.MyResourceTest" name="testGetIt" time="0.035"/>
+  <testcase classname="fr.univ_lille.iut.UserResourceTest" name="test_A_GetEmptyListofUsers" time="1.074"/>
+  <testcase classname="fr.univ_lille.iut.UserResourceTest" name="test_B_CreateUser" time="0.157"/>
+  <testcase classname="fr.univ_lille.iut.UserResourceTest" name="test_C_CreateSameUser" time="0.069"/>
+  <testcase classname="fr.univ_lille.iut.UserResourceTest" name="test_D_GetTwoUsers" time="0.083"/>
+  <testcase classname="fr.univ_lille.iut.UserResourceTest" name="test_E_GetOneUser" time="0.072"/>
+  <testcase classname="fr.univ_lille.iut.UserResourceTest" name="test_F_GetInexistantUser" time="0.062"/>
+  <testcase classname="fr.univ_lille.iut.UserResourceTest" name="test_G_DeleteOneUser" time="0.054"/>
+  <testcase classname="fr.univ_lille.iut.UserResourceTest" name="test_H_DeleteIntexistantUser" time="0.062"/>
+  <testcase classname="fr.univ_lille.iut.UserResourceTest" name="test_I_ModifyUser" time="0.053"/>
+  <testcase classname="fr.univ_lille.iut.UserResourceTest" name="test_J_ModifyInexistantUser" time="0.056"/>
+  <testcase classname="fr.univ_lille.iut.UserResourceTest" name="test_K_CreateUserFromForm" time="0.051"/>
+  <testcase classname="fr.univ_lille.iut.UserResourceTest" name="test_L_GetUserAsXml" time="0.049"/>
 </testsuite>
